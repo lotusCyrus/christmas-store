@@ -1,0 +1,28 @@
+.payment-types{
+    width: 10.625rem;
+    height: 6.5rem;
+}
+.paypal {
+    width: 5.125rem;
+    height: 5.0625rem;
+}
+
+.total-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount-container {
+}
+
+.pay-now {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+.all-payments {
+    display: flex;
+    flex-flow: wrap-reverse;
+}

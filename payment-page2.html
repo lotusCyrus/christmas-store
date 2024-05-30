@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="paymentpagestyle.css">
+</head>
+<body>
+
+    <!-- ===================== navigation bar ===================== -->
+    <div class="nav">
+        <div class="logo">CHARITYECARDS</div>
+        <div class="navlist">
+            <ul>Pricing</ul>
+            <ul>Cards</ul>
+            <ul>About</ul>
+            <ul>Contact</ul>
+            <ul>Charity</ul>
+        </div>
+        <div class="shoppingbottons">
+            <img src="img/shoppingcart.svg" alt="shoppingcart">
+            <button class="ourcards">Our Cards</button>
+        </div>
+    </div>
+
+
+    <!-- ===================== payment selection ===================== -->   
+    <div>
+        <div class="circle">
+            3
+        </div>
+        <h2>Payment</h2>
+    </div>
+    
+    <div class="all-payments">
+        <button class="payment-types" type="button">
+            <img class="paypal" src="img/paypal.png" alt="Paypal">
+        </button>
+        <button class="payment-types" type="button">
+            <img src="img/Mastercard.png" alt="Mastercard">
+        </button>        
+        <button class="payment-types" type="button">
+            <img src="img/VISA.png" alt="VISA">
+        </button>        
+        <button class="payment-types" type="button">
+            <img src="img/AmericanExpress.png" alt="American Express">
+        </button>
+    </div>
+
+
+    <!-- ===================== payment selection ===================== -->   
+    <div class="payment-info">
+        <div>
+            <span>Cardholder Name*</span>
+            <input type="text" placeholder="Enter Cardholder Name">
+        </div>
+        <div>
+            <span>Cardnumber*</span>
+            <input type="text" placeholder="Enter Card Number">
+        </div>
+        <div>
+            <span>Expiry Date*</span>
+            <input type="text" placeholder="00">
+            <input type="text" placeholder="00">
+        </div>
+        <div>
+            <span>CVV*</span>
+            <input type="text" placeholder="Enter CVV">
+        </div>
+    </div>
+
+
+    <!-- ===================== total amount ===================== -->  
+<div class="amount-container">
+    <div class="total-amount">
+        <h2>Total</h2>
+        <h2>$4.50</h2>
+    </div>
+</div>       
+
+<div class="pay-now">
+    <a href="payment-approved.html"><button type="button">Pay Now</button></a>
+</div>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Image Filter</title>
+    <style>
+        /* Basic styling */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            width: 150px; /* Set a fixed width for consistency */
+        }
+
+        .dropdown-display {
+            background-color: #f9f9f9;
+            color: black;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer;
+            text-align: left;
+            width: 100%; /* Ensure it takes the full width */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            width: 100%; /* Ensure it takes the full width */
+            border: 1px solid #ccc;
+            border-radius: 5px; /* Rounded corners */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+
+        .dropdown-content div {
+            padding: 12px 16px;
+            cursor: pointer;
+        }
+
+        .dropdown-content div:hover {
+            background-color: #f1f1f1;
+        }
+
+        .item {
+            display: block; /* Display all items initially */
+        }
+
+        .arrow {
+            transition: transform 0.3s ease;
+        }
+
+        .arrow-down {
+            transform: rotate(0deg);
+        }
+
+        .arrow-up {
+            transform: rotate(180deg);
+        }
+
+        .images-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .images-container img {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px; /* Rounded corners for images */
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <div class="dropdown-display">
+            <span>Filter</span>
+            <span class="arrow arrow-down">&#9660;</span> <!-- Unicode down arrow -->
+        </div>
+        <div class="dropdown-content">
+            <div class="filter-option">All</div>
+            <div class="filter-option">Category 1</div>
+            <div class="filter-option">Category 2</div>
+            <div class="filter-option">Category 3</div>
+        </div>
+    </div>
+    <div id="imagesContainer" class="images-container">
+        <img src="https://via.placeholder.com/100" alt="Item 1" class="item category-1">
+        <img src="https://via.placeholder.com/100" alt="Item 2" class="item category-2">
+        <img src="https://via.placeholder.com/100" alt="Item 3" class="item category-3">
+        <img src="https://via.placeholder.com/100" alt="Item 4" class="item category-1">
+        <img src="https://via.placeholder.com/100" alt="Item 5" class="item category-2">
+    </div>
+
+
+
+    <script src="test.js"></script>
+</body>
+</html>

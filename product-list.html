@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="productpagestyle.css">
+  
+  <title>Product List Page</title>
+</head>
+
+
+<body>
+      <!-- ===================== navigation bar ===================== -->
+  <div class="nav">
+    <div class="logo">CHARITYECARDS</div>
+    <div class="navlist">
+      <ul>Pricing</ul>
+      <ul>Cards</ul>
+      <ul>About</ul>
+      <ul>Contact</ul>
+      <ul>Charity</ul>
+    </div>
+    <div class="shoppingbottons">
+      <img src="img/shoppingcart.svg" alt="shoppingcart">
+      <button class="ourcards">Our Cards</button>
+    </div>
+  </div>
+
+<div>
+<h1>Christmas is Coming</h1>
+<p>Check out our collection of Christmas cards that will sure to set a cozy mood for the coming season!</p>
+<button>Christmas Cards</button>
+</div>
+<h2>All Cards</h2>
+
+  <!-- ===================== the filter ===================== -->
+    <div class="filter">
+        <div class="select">
+          <span class="selected">Filter</span>
+          <div class="arrow arrow-right"></div>
+        </div>
+        <div class="menu">
+                <div class="text-option" data-filter="allcard">All Cards</div>
+                <div class="text-option" data-filter="christmascards">Christmas Cards</div>
+                <div class="text-option" data-filter="pickmecards">Pick Me Up Cards</div>
+                <div class="text-option" data-filter="thanksgivingcards">Thanksgiving Cards</div>
+                <div class="text-option" data-filter="valentinecards">Valentines Cards</div>
+        </div>
+    </div>
+
+      <!-- ===================== the search ===================== -->
+      <div>
+        <div>
+          <img src="img/3lines.svg">
+          <input type="text" placeholder="Search Bar">
+          <a><img src="img/Icon.svg"></a>
+        </div>
+            <ul>
+                <li><a href="#">green</a></li>
+                <li><a href="#">christmas</a></li>
+                <li><a href="#">beige</a></li>
+                <li><a href="#">valentines</a></li>
+                <li><a href="#">cute</a></li>
+            </ul>      
+    </div>
+
+
+      <!-- ===================== the products ===================== -->
+
+      <div class="products-list" id="products">
+        <div class="popupVal1" data-category="valentinecards">
+          <a href="#">
+            <img id="popupButton" class="product-items thanks" src="img/val1.png">
+          </a>
+          <div id="valPopup1" class="popup1">
+            <div class="valpopupcontent">
+              <button id="closeValpopup1">
+                <img class="close-button help" src="img/Close.svg">
+              </button>
+              <h2>
+                I Love You a Whole Bunch!
+              </h2>
+              <p>My love for you can't be expressed with even the prettiest bouquet</p>
+              <button id="chooseCard1" class="choose-button">
+                Choose
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks1.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items motivate" src="img/motivate1.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items val" src="img/val2.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks2.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas1.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas2.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items motivate" src="img/motivate2.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items val" src="img/val1.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks1.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items motivate" src="img/motivate1.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items val" src="img/val2.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks2.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas1.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas2.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items motivate" src="img/motivate2.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a>
+            <img class="product-items val" src="img/val1.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks1.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items motivate" src="img/motivate1.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items val" src="img/val2.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks2.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas1.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas2.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items motivate" src="img/motivate2.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items val" src="img/val1.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks1.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items motivate" src="img/motivate1.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items val" src="img/val2.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items thanks" src="img/thanks2.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas1.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items xmas" src="img/xmas2.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items" src="img/motivate2.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items" src="img/val1.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items" src="img/thanks1.png">
+          </a>
+        </div>
+        <div data-category="pickmecards">
+          <a href="#">
+            <img class="product-items" src="img/motivate1.png">
+          </a>
+        </div>
+        <div data-category="valentinecards">
+          <a href="#">
+            <img class="product-items" src="img/val2.png">
+          </a>
+        </div>
+        <div data-category="thanksgivingcards">
+          <a href="#">
+            <img class="product-items" src="img/thanks2.png">
+          </a>
+        </div>
+        <div data-category="christmascards">
+          <a href="#">
+            <img class="product-items" src="img/xmas1.png">
+          </a>
+        </div>
+      </div>
+
+  <!-- ===================== footer ===================== -->
+  <footer>
+    <img src="img/footericon.svg" alt="footer icon">
+    <div class="footerlinks">
+      <table>
+        <tr>
+          <th>Useful Links</th>
+          <th>Socials</th>
+          <th>Secure Payments</th>
+        </tr>
+        <tr>
+          <td>About Us</td>
+          <td>Facebook</td>
+          <td>
+            <img src="img/VISA.png" alt="VISA">
+            <img src="img/Mastercard.png" alt="Mastercard">
+            <img src="img/AmericanExpress.png" alt="American AmericanExpress">
+          </td>
+        </tr>
+        <tr>
+          <td>Contact Us</td>
+          <td>Linkedin</td>
+        </tr>
+        <tr>
+          <td>Pricing</td>
+          <td>Instagram</td>
+        </tr>
+        <tr>
+          <td>Terms and Conditions</td>
+          <td>Twitter</td>
+        </tr>
+        <tr>
+          <td>Privacy Policy</td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+
+    
+    <script src="productliststyle.js"></script>
+</body>
+</html>
